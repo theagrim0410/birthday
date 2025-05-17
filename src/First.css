@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffb6c1, #ff66b2, #ff99cc);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+video {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff66b2;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #ff3385;
+  transform: scale(1.1);
+}
+
+.buttons button:active {
+  background-color: #ff1f5f;
+}
+
+.buttons button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
