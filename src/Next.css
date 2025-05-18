@@ -238,3 +238,92 @@ html, body {
   transform: translateX(-50%) translateY(-3px); /* Updated to maintain center */
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
+
+
+
+/* Tablet screens and smaller */
+@media (max-width: 768px) {
+  .envelope {
+    width: 280px;
+    height: 200px;
+  }
+
+  .animation-title {
+    font-size: 2.5rem;
+    top: 68%;
+  }
+
+  .card-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .card-content p {
+    font-size: 1.1rem;
+  }
+
+  .photo-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .birthday-message {
+    font-size: 1.5rem;
+  }
+
+  .flap-message {
+    font-size: 1.5rem;
+    padding: 8px 16px;
+  }
+
+  .flap-heart {
+    font-size: 1.8rem;
+  }
+
+  .confetti {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .envelope {
+    width: 230px;
+    height: 160px;
+  }
+
+  .animation-title {
+    font-size: 2rem;
+    top: 70%;
+  }
+
+  .card-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .card-content p {
+    font-size: 1rem;
+  }
+
+  .photo-button {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+
+  .birthday-message {
+    font-size: 1.3rem;
+  }
+
+  .flap-message {
+    font-size: 1.2rem;
+    padding: 6px 12px;
+  }
+
+  .flap-heart {
+    font-size: 1.6rem;
+  }
+
+  .confetti {
+    font-size: 1.8rem;
+  }
+}
+
