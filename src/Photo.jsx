@@ -83,6 +83,7 @@ const Photo = () => {
             <div className="countdown-item">
               <span>{timeLeft.seconds}</span>
               <span>Seconds</span>
+              <p className="ag"> DEVELOPED BY AGRIM SAXENA</p>
             </div>
           </div>
         </div>
