@@ -42,3 +42,28 @@
     opacity: 0; /* Only fade out at the very end */
   }
 }
+
+@media (max-width: 768px) {
+  .balloon {
+    width: 30px;
+    height: 40px;
+  }
+
+  .balloon::after {
+    width: 8%;
+    height: 12%;
+  }
+}
+
+@media (max-width: 480px) {
+  .balloon {
+    width: 20px;
+    height: 30px;
+  }
+
+  .balloon::after {
+    width: 6%;
+    height: 10%;
+  }
+}
+
