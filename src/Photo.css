@@ -103,3 +103,91 @@
   font-size: 0.9rem;
   opacity: 0.8;
 }
+
+
+/* Tablet screens and smaller */
+@media (max-width: 768px) {
+  .photo-slideshow {
+    padding: 15px;
+    max-width: 95%;
+    max-height: 85%;
+  }
+
+  .photo {
+    max-width: 90%;
+    max-height: 60vh;
+  }
+
+  .controls {
+    gap: 20px;
+  }
+
+  .controls button {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+  .countdown-container h3 {
+    font-size: 1.3rem;
+  }
+
+  .countdown-item {
+    min-width: 60px;
+    padding: 8px 12px;
+  }
+
+  .countdown-item span:first-child {
+    font-size: 1.6rem;
+  }
+
+  .countdown-item span:last-child {
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .photo-slideshow {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .photo {
+    max-width: 95%;
+    max-height: 50vh;
+  }
+
+  .controls {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .controls button {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .countdown-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .countdown {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .countdown-item {
+    min-width: 55px;
+    padding: 6px 10px;
+  }
+
+  .countdown-item span:first-child {
+    font-size: 1.4rem;
+  }
+
+  .countdown-item span:last-child {
+    font-size: 0.75rem;
+  }
+}
