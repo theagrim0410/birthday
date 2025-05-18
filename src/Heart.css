@@ -35,3 +35,19 @@
     opacity: 0; /* Quick fade at the end */
   }
 }
+
+
+@media (max-width: 768px) {
+  .heart {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heart {
+    width: 20px;
+    height: 20px;
+    animation-duration: 6s; /* slightly slower for smoother effect */
+  }
+}
